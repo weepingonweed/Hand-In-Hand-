@@ -1,0 +1,1643 @@
+
+<!DOCTYPE html>
+<html lang="en-SG">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FAF7F1">
+
+<title>Hand In Hand Food | Peking Duck & Xiao Long Bao Singapore</title>
+<meta name="description" content="Discover Peking Duck, handmade Xiao Long Bao and Chinese favourites at Hand In Hand Food. Visit our Jalan Besar, Boat Quay and JEM restaurants in Singapore.">
+<link rel="canonical" href="https://handinhandfood.com/">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {
+   "@type":"Organization",
+   "name":"Hand In Hand Food",
+   "alternateName":"手拉手",
+   "url":"https://handinhandfood.com/",
+   "sameAs":["https://www.instagram.com/handinhandfood/"]
+  },
+  {
+   "@type":"Restaurant",
+   "name":"Hand In Hand Beijing Restaurant",
+   "servesCuisine":"Chinese",
+   "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"141–143 Jalan Besar",
+    "addressLocality":"Singapore",
+    "postalCode":"208859",
+    "addressCountry":"SG"
+   }
+  },
+  {
+   "@type":"Restaurant",
+   "name":"Hand In Hand Shandong Restaurant",
+   "servesCuisine":"Chinese",
+   "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"69 Boat Quay",
+    "addressLocality":"Singapore",
+    "postalCode":"049857",
+    "addressCountry":"SG"
+   }
+  },
+  {
+   "@type":"Restaurant",
+   "name":"Hand In Hand Peking Duck Restaurant",
+   "servesCuisine":"Chinese",
+   "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"50 Jurong Gateway Road, #03-23, JEM",
+    "addressLocality":"Singapore",
+    "postalCode":"608549",
+    "addressCountry":"SG"
+   }
+  }
+ ]
+}
+</script>
+
+<style>
+:root {
+ --ivory:#FAF7F1;
+ --red:#9D2634;
+ --gold:#B39560;
+ --ink:#282522;
+ --stone:#E8DDCC;
+ --muted:#71675F;
+ --line:#D8C8B5;
+}
+
+* {box-sizing:border-box}
+
+html {
+ scroll-behavior:smooth;
+ scroll-padding-top:90px;
+}
+
+body {
+ margin:0;
+ background:var(--ivory);
+ color:var(--ink);
+ font:15px/1.75 'DM Sans',sans-serif;
+}
+
+h1,h2,h3,p {margin-top:0}
+h1,h2,h3 {line-height:1.12;font-weight:400}
+h1,h2,.display {font-family:'DM Serif Display',Georgia,serif}
+.zh {font-family:'Noto Serif SC',serif}
+
+a {text-decoration:none;color:inherit}
+button,input,select {font:inherit}
+button {cursor:pointer}
+img {display:block;width:100%;object-fit:cover}
+:focus-visible {outline:3px solid var(--red);outline-offset:4px}
+
+.wrap {
+ width:min(1240px,90%);
+ margin:auto;
+}
+
+.eyebrow {
+ color:var(--red);
+ font-size:11px;
+ letter-spacing:.23em;
+ text-transform:uppercase;
+ font-weight:700;
+}
+
+.eyebrow::before {
+ content:'';
+ display:inline-block;
+ width:25px;
+ height:1px;
+ background:var(--gold);
+ vertical-align:middle;
+ margin-right:10px;
+}
+
+h2 {
+ font-size:clamp(42px,5vw,76px);
+ letter-spacing:-.035em;
+ margin:16px 0 22px;
+}
+
+h2 em {
+ color:var(--red);
+ font-weight:400;
+}
+
+.muted {color:var(--muted)}
+
+.button {
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ gap:35px;
+ padding:14px 22px;
+ background:var(--red);
+ color:white;
+ border:1px solid var(--red);
+ font-weight:700;
+ font-size:12px;
+ letter-spacing:.07em;
+ transition:.2s;
+}
+
+.button:hover {
+ background:#761C27;
+ transform:translateY(-2px);
+}
+
+.button-outline {
+ background:transparent;
+ color:var(--red);
+}
+
+.button-outline:hover {color:white}
+
+.skip {position:absolute;left:-9999px}
+.skip:focus {
+ left:12px;
+ top:12px;
+ background:white;
+ padding:8px;
+ z-index:100;
+}
+
+.announcement {
+ padding:7px;
+ text-align:center;
+ background:var(--red);
+ color:#fff4e6;
+ font-size:10px;
+ letter-spacing:.15em;
+}
+
+/* HEADER */
+
+header {
+ position:sticky;
+ top:0;
+ background:#faf7f1f2;
+ backdrop-filter:blur(14px);
+ z-index:20;
+ border-bottom:1px solid var(--line);
+}
+
+.header-inner {
+ width:min(1440px,94%);
+ margin:auto;
+ min-height:83px;
+ display:flex;
+ gap:28px;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.logo {
+ display:flex;
+ align-items:center;
+ gap:13px;
+}
+
+.logo .hanzi {
+ font-size:32px;
+ line-height:1;
+ color:var(--red);
+ font-weight:600;
+}
+
+.logo .en {
+ font-size:12px;
+ letter-spacing:.2em;
+ line-height:1.5;
+ border-left:1px solid var(--line);
+ padding-left:12px;
+}
+
+.logo small {
+ display:block;
+ font-size:9px;
+ color:var(--muted);
+ letter-spacing:.12em;
+}
+
+nav {
+ display:flex;
+ gap:22px;
+ align-items:center;
+}
+
+nav a {font-size:12px}
+nav a:hover {color:var(--red)}
+
+.mobile-toggle {
+ display:none;
+ background:none;
+ border:1px solid var(--line);
+ padding:9px 13px;
+ color:var(--red);
+}
+
+/* HERO */
+
+.hero {
+ display:grid;
+ grid-template-columns:52% 48%;
+ min-height:635px;
+ background:linear-gradient(105deg,#faf7f1,#f2e3d1);
+}
+
+.hero-copy {
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:flex-start;
+ padding:60px 7% 70px max(7%,calc((100vw - 1240px)/2));
+}
+
+.hero h1 {
+ font-size:clamp(62px,6.6vw,112px);
+ line-height:.99;
+ letter-spacing:-.055em;
+ margin:25px 0;
+}
+
+.hero h1 em {
+ color:var(--red);
+ font-weight:400;
+}
+
+.hero p {
+ max-width:430px;
+ color:#675f55;
+ font-size:15px;
+}
+
+.hero-actions {
+ display:flex;
+ gap:25px;
+ align-items:center;
+ flex-wrap:wrap;
+ margin-top:22px;
+}
+
+.underlink {
+ color:var(--red);
+ border-bottom:1px solid var(--gold);
+ padding-bottom:5px;
+ font-weight:600;
+ font-size:12px;
+}
+
+.hero-visual {
+ position:relative;
+ min-height:540px;
+ background:radial-gradient(circle at 50% 55%,#ebd9bd 0,#b99375 55%,#6e3435 100%);
+ overflow:hidden;
+}
+
+#steamer-canvas {
+ position:absolute;
+ inset:0;
+ width:100%;
+ height:100%;
+ touch-action:pan-y;
+ cursor:grab;
+}
+
+#steamer-canvas:active {cursor:grabbing}
+
+.steamer-fallback {
+ position:absolute;
+ inset:0;
+ display:grid;
+ place-items:center;
+ font-size:150px;
+ color:#fff6;
+}
+
+.steamer-fallback[hidden] {display:none}
+
+.hero-visual::after {
+ content:'小笼包  ·  HANDCRAFTED WITH CARE';
+ position:absolute;
+ left:7%;
+ bottom:23px;
+ color:white;
+ font-size:11px;
+ letter-spacing:.2em;
+ pointer-events:none;
+}
+
+section {scroll-margin-top:90px}
+
+/* STORY */
+
+.story,.xlb-feature {
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:9%;
+ align-items:center;
+ padding:112px 0;
+}
+
+.story figure,.xlb-feature figure {
+ margin:0;
+ position:relative;
+}
+
+.story img,.xlb-feature img {height:530px}
+
+.photo-label {
+ position:absolute;
+ bottom:12px;
+ left:12px;
+ padding:5px 10px;
+ background:#fffdf0e8;
+ font-size:10px;
+ color:#5f5044;
+}
+
+.story-text p,.xlb-feature p {
+ max-width:480px;
+ color:var(--muted);
+}
+
+/* PEKING DUCK SPOTLIGHT */
+
+.duck-feature {
+ display:grid;
+ grid-template-columns:45% 55%;
+ background:#581923;
+ color:#fff3e4;
+ min-height:550px;
+}
+
+.duck-feature .copy {
+ padding:85px 10% 80px 12%;
+ display:flex;
+ flex-direction:column;
+ align-items:flex-start;
+ justify-content:center;
+}
+
+.duck-feature h2 {
+ font-size:clamp(50px,5vw,82px);
+}
+
+.duck-feature h2 em {color:#d9b87c}
+.duck-feature img {height:100%;min-height:550px}
+.duck-feature .eyebrow {color:#efcb98}
+.duck-feature p {max-width:440px;color:#f3dacb}
+
+.duck-feature .button {
+ background:var(--ivory);
+ color:var(--red);
+ border-color:var(--ivory);
+}
+
+/* XIAO LONG BAO FEATURE */
+
+.xlb-feature {
+ background:var(--stone);
+ padding:100px max(5%,calc((100vw - 1240px)/2));
+}
+
+.xlb-feature img {height:470px}
+.xlb-feature h2 {font-size:clamp(45px,5vw,70px)}
+
+/* MENU */
+
+.menu-section {padding:110px 0}
+
+.section-heading {
+ display:flex;
+ justify-content:space-between;
+ align-items:end;
+ gap:30px;
+ margin-bottom:30px;
+}
+
+.section-heading p {
+ max-width:410px;
+ color:var(--muted);
+}
+
+.filters {
+ border-block:1px solid var(--line);
+ padding:18px 0;
+ display:flex;
+ align-items:center;
+ gap:12px;
+ flex-wrap:wrap;
+}
+
+.filter {
+ background:transparent;
+ border:1px solid transparent;
+ color:#6d635b;
+ padding:9px 13px;
+ font-size:12px;
+}
+
+.filter[aria-pressed="true"] {
+ background:var(--red);
+ color:white;
+}
+
+.filter:hover {border-color:var(--line)}
+
+.searchbar {
+ display:flex;
+ flex-wrap:wrap;
+ align-items:center;
+ gap:16px;
+ margin:23px 0 28px;
+}
+
+.searchbar input,.searchbar select {
+ border:1px solid var(--line);
+ background:white;
+ padding:12px 15px;
+ min-height:47px;
+ color:var(--ink);
+}
+
+.searchbar input {
+ flex:1;
+ min-width:210px;
+}
+
+.searchbar label {
+ font-size:12px;
+ font-weight:600;
+}
+
+.dish-grid {
+ display:grid;
+ grid-template-columns:repeat(4,minmax(0,1fr));
+ gap:20px;
+}
+
+.dish {
+ background:white;
+ border:1px solid #e1d6c7;
+ overflow:hidden;
+ display:flex;
+ flex-direction:column;
+}
+
+.dish img {
+ height:205px;
+ transition:transform .28s;
+}
+
+.dish:hover img {transform:scale(1.035)}
+
+.dish .photo {
+ overflow:hidden;
+ background:#dfcbb4;
+}
+
+.dish-body {
+ padding:17px 17px 20px;
+ display:flex;
+ flex:1;
+ flex-direction:column;
+}
+
+.dish .tag {
+ font-size:10px;
+ color:var(--red);
+ letter-spacing:.12em;
+ text-transform:uppercase;
+}
+
+.dish h3 {
+ font:25px/1.2 'DM Serif Display',serif;
+ margin:10px 0 5px;
+}
+
+.dish .cn {
+ color:var(--gold);
+ font-size:13px;
+}
+
+.dish p {
+ font-size:12px;
+ color:var(--muted);
+ margin:10px 0 20px;
+}
+
+.dish button {
+ margin-top:auto;
+ align-self:flex-start;
+ border:0;
+ background:none;
+ border-bottom:1px solid var(--red);
+ padding:0 0 4px;
+ color:var(--red);
+ font-size:12px;
+ font-weight:700;
+}
+
+.dish[hidden],.empty[hidden] {display:none}
+
+.empty {
+ text-align:center;
+ color:var(--muted);
+ padding:50px;
+}
+
+.note {
+ font-size:11px;
+ color:var(--muted);
+ margin-top:18px;
+}
+
+/* LOCATIONS */
+
+.locations {
+ background:#eee5d7;
+ padding:110px 0;
+}
+
+.location-grid,.product-grid {
+ display:grid;
+ grid-template-columns:repeat(3,minmax(0,1fr));
+ gap:20px;
+}
+
+.location {
+ background:var(--ivory);
+ border:1px solid #dfd0bd;
+ min-width:0;
+}
+
+.location img {height:220px}
+.location .body {padding:25px}
+
+.location h3 {
+ font:31px/1.12 'DM Serif Display',serif;
+ margin:12px 0;
+}
+
+.location p {
+ font-size:13px;
+ color:var(--muted);
+}
+
+.location a {
+ display:inline-block;
+ margin-top:10px;
+ color:var(--red);
+ font-size:12px;
+ font-weight:700;
+ border-bottom:1px solid var(--gold);
+}
+
+/* RETAIL PRODUCTS */
+
+.products {padding:110px 0}
+
+.product {
+ background:#f0e7da;
+ border:1px solid #ded0bd;
+ padding:32px;
+}
+
+.product .symbol {
+ font:80px 'Noto Serif SC',serif;
+ color:var(--red);
+ height:130px;
+ display:grid;
+ place-items:center;
+}
+
+.product h3 {
+ font:27px 'DM Serif Display',serif;
+}
+
+.product p {
+ font-size:13px;
+ color:var(--muted);
+}
+
+/* CONTACT AND FOOTER */
+
+.closing {
+ text-align:center;
+ background:var(--red);
+ color:white;
+ padding:100px 15px;
+}
+
+.closing h2 {font-size:clamp(48px,6vw,80px)}
+.closing h2 em {color:#dfc393}
+
+.closing .button {
+ background:var(--ivory);
+ color:var(--red);
+ border:0;
+}
+
+footer {
+ background:#2c2020;
+ color:#e9dcd1;
+ padding:60px 0 28px;
+}
+
+footer .foot {
+ display:flex;
+ justify-content:space-between;
+ gap:30px;
+ flex-wrap:wrap;
+}
+
+footer .foot a {color:#e3c08f}
+footer small {color:#d1bcb1}
+
+footer .bottom {
+ border-top:1px solid #6d4f4f;
+ margin-top:50px;
+ padding-top:18px;
+ font-size:11px;
+}
+
+/* DISH DETAILS MODAL */
+
+dialog {
+ border:0;
+ padding:0;
+ width:min(760px,92%);
+ max-height:90vh;
+ overflow:auto;
+ background:var(--ivory);
+ box-shadow:0 30px 100px #281b1b99;
+}
+
+dialog::backdrop {background:#27151bc4}
+
+dialog .modal-content {
+ padding:30px 34px 40px;
+}
+
+dialog img {max-height:300px}
+dialog h2 {font-size:43px}
+
+dialog .close {
+ position:sticky;
+ float:right;
+ top:10px;
+ right:10px;
+ background:var(--red);
+ color:white;
+ border:0;
+ padding:10px 15px;
+ z-index:2;
+}
+
+/* TABLET */
+
+@media(max-width:1000px) {
+ .header-inner nav,.header-cta {display:none}
+ .mobile-toggle {display:block}
+
+ .mobile-nav {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  width:100%;
+  background:var(--ivory);
+  padding:20px 5%;
+  border-bottom:1px solid var(--line);
+  flex-direction:column;
+  align-items:flex-start;
+ }
+
+ .mobile-nav.open {display:flex}
+ .dish-grid {grid-template-columns:repeat(3,1fr)}
+ .hero {grid-template-columns:1fr 1fr}
+ .hero h1 {font-size:64px}
+}
+
+/* MOBILE */
+
+@media(max-width:700px) {
+ .announcement {font-size:8px}
+ .header-inner {min-height:73px}
+ .logo .hanzi {font-size:25px}
+
+ .hero,.story,.xlb-feature,.duck-feature {
+  grid-template-columns:1fr;
+ }
+
+ .hero-copy {padding:65px 6%}
+ .hero-visual {min-height:385px}
+ .hero h1 {font-size:clamp(56px,13vw,78px)}
+
+ .story,.xlb-feature {padding:70px 0}
+ .story img,.xlb-feature img {height:340px}
+
+ .duck-feature .copy {padding:70px 7%}
+ .duck-feature img {min-height:300px;max-height:390px}
+
+ .dish-grid {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+ }
+
+ .location-grid,.product-grid {grid-template-columns:1fr}
+
+ .section-heading {display:block}
+
+ .menu-section,.locations,.products {padding:75px 0}
+}
+
+@media(max-width:430px) {
+ .dish-grid {grid-template-columns:1fr}
+ .dish img {height:235px}
+ .hero-visual {min-height:320px}
+ .logo .en {font-size:10px}
+ .searchbar select {width:100%}
+}
+
+@media(prefers-reduced-motion:reduce) {
+ html {scroll-behavior:auto}
+ *,*::before,*::after {
+  transition:none!important;
+  animation:none!important;
+ }
+}
+</style>
+</head>
+
+<body>
+
+<a href="#content" class="skip">Skip to content</a>
+
+<div class="announcement">
+ 手作的温度 ✦ HANDMADE WITH CARE IN SINGAPORE SINCE 2004 ✦ THREE OUTLETS
+</div>
+
+<header>
+ <div class="header-inner">
+
+  <a class="logo" href="#home" aria-label="Hand In Hand Food homepage">
+   <span class="hanzi zh" lang="zh-Hans">手拉手</span>
+   <span class="en">
+    <strong>HAND IN HAND</strong>
+    <small>FOOD · SINCE 2004</small>
+   </span>
+  </a>
+
+  <nav aria-label="Main navigation">
+   <a href="#home">Home</a>
+   <a href="#story">Our Story</a>
+   <a href="#menu">Menu</a>
+   <a href="#locations">Locations</a>
+   <a href="#products">Our Products</a>
+   <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="button header-cta" href="#locations">FIND A TABLE ↗</a>
+
+  <button
+   id="nav-toggle"
+   class="mobile-toggle"
+   aria-controls="mobile-nav"
+   aria-expanded="false"
+   aria-label="Toggle navigation"
+  >☰</button>
+ </div>
+
+ <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+  <a href="#home">Home</a>
+  <a href="#story">Our Story</a>
+  <a href="#menu">Menu</a>
+  <a href="#locations">Locations</a>
+  <a href="#products">Our Products</a>
+  <a href="#contact">Contact</a>
+ </nav>
+</header>
+
+<main id="content">
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+ <div class="hero-copy">
+  <span class="eyebrow">A Singapore story since 2004</span>
+
+  <h1>
+   Crafted<br>
+   by Hand.<br>
+   <em>Shared</em><br>
+   with Heart.
+  </h1>
+
+  <p>
+   Discover Peking Duck, handmade Xiao Long Bao and traditional
+   Chinese favourites, served with heart across three Singapore restaurants.
+  </p>
+
+  <div class="hero-actions">
+   <a class="button" href="#menu">EXPLORE OUR MENU ↗</a>
+   <a class="underlink" href="#locations">Our three outlets ↗</a>
+  </div>
+ </div>
+
+ <div class="hero-visual">
+  <div id="steamer-fallback" class="steamer-fallback" aria-hidden="true">🥟</div>
+  <canvas id="steamer-canvas"
+   aria-label="Interactive 3D bamboo steamer with handmade dumplings"></canvas>
+ </div>
+
+</section>
+
+<!-- OUR STORY -->
+
+<section class="story wrap" id="story">
+
+ <figure>
+  <img
+   src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=1000&q=85"
+   alt="Illustrative dumpling photograph; replace with approved Hand In Hand food photography"
+   loading="lazy">
+  <figcaption class="photo-label">
+   Illustrative photo — replace before publishing
+  </figcaption>
+ </figure>
+
+ <div class="story-text">
+  <span class="eyebrow">01 / Our story</span>
+
+  <h2>Made by hand.<br><em>Shared together.</em></h2>
+
+  <p>
+   Hand In Hand has been part of Singapore's Chinese dining landscape
+   since 2004. From dumplings to comforting traditional dishes,
+   food has always been about bringing people around one table.
+  </p>
+
+  <a class="button button-outline" href="#locations">VISIT US ↗</a>
+ </div>
+
+</section>
+
+<!-- PEKING DUCK -->
+
+<section class="duck-feature" id="peking-duck">
+
+ <div class="copy">
+  <span class="eyebrow">02 / An iconic favourite</span>
+
+  <h2>The art of<br><em>Peking</em><br>Duck.</h2>
+
+  <p>
+   Crisp skin, rich aroma and a time-honoured way of sharing.
+   Explore the Peking Duck selections at our participating outlets.
+  </p>
+
+  <a class="button" href="#menu" data-set-category="Peking Duck">
+   EXPLORE PEKING DUCK ↗
+  </a>
+ </div>
+
+ <img
+  src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1200&q=85"
+  alt="Illustrative plated meal, not an official photograph of Hand In Hand Peking Duck"
+  loading="lazy">
+
+</section>
+
+<!-- XIAO LONG BAO -->
+
+<section class="xlb-feature" id="xiao-long-bao">
+
+ <figure>
+  <img
+   src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=1100&q=85"
+   alt="Illustrative Chinese dumplings"
+   loading="lazy">
+  <figcaption class="photo-label">
+   Illustrative photo — replace before publishing
+  </figcaption>
+ </figure>
+
+ <div>
+  <span class="eyebrow">03 / Our craftsmanship</span>
+
+  <h2>A little fold<br>of <em>tradition.</em></h2>
+
+  <p>
+   Discover the comforting flavours of Xiao Long Bao (小笼包),
+   handmade dumplings and Chinese favourites that make a shared meal special.
+  </p>
+
+  <a class="button button-outline" href="#menu" data-set-category="Xiao Long Bao">
+   DISCOVER XIAO LONG BAO ↗
+  </a>
+ </div>
+
+</section>
+
+<!-- INTERACTIVE MENU -->
+
+<section class="menu-section" id="menu">
+ <div class="wrap">
+
+  <div class="section-heading">
+   <div>
+    <span class="eyebrow">04 / Explore our food</span>
+    <h2>Made for <em>the table.</em></h2>
+   </div>
+
+   <p>
+    Select a category, search for a dish or choose an outlet.
+    Menu offerings and availability should be confirmed with the restaurant.
+   </p>
+  </div>
+
+  <div class="filters" role="group" aria-label="Menu categories">
+   <button class="filter" aria-pressed="true" data-category="all">All dishes</button>
+   <button class="filter" aria-pressed="false" data-category="Peking Duck">Peking Duck</button>
+   <button class="filter" aria-pressed="false" data-category="Xiao Long Bao">Xiao Long Bao</button>
+   <button class="filter" aria-pressed="false" data-category="Dumplings">Dumplings</button>
+   <button class="filter" aria-pressed="false" data-category="Chinese Classics">Chinese Classics</button>
+  </div>
+
+  <div class="searchbar">
+   <label for="dish-search">Looking for something delicious?</label>
+
+   <input
+    id="dish-search"
+    type="search"
+    placeholder="Search duck, xiao long bao, dumplings…">
+
+   <label for="outlet">Outlet</label>
+   <select id="outlet">
+    <option value="all">All outlets</option>
+    <option value="jalan">Jalan Besar</option>
+    <option value="boat">Boat Quay</option>
+    <option value="jem">JEM</option>
+   </select>
+  </div>
+
+  <div class="dish-grid" id="dish-grid">
+
+   <!-- DISH 1 -->
+
+   <article class="dish"
+    data-name="Peking Duck 北京烤鸭"
+    data-category="Peking Duck"
+    data-outlets="boat jem"
+    data-description="Beijing-style roasted duck. Ask your selected outlet about current portions, accompaniments and prices.">
+
+    <div class="photo">
+     <img
+      src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80"
+      alt="Illustrative dish photo, not official Peking Duck"
+      loading="lazy">
+    </div>
+
+    <div class="dish-body">
+     <span class="tag">Peking Duck</span>
+     <h3>Peking Duck</h3>
+     <span class="cn zh">北京烤鸭</span>
+     <p>A celebratory Chinese classic.</p>
+     <button class="details">Discover dish ↗</button>
+    </div>
+   </article>
+
+   <!-- DISH 2 -->
+
+   <article class="dish"
+    data-name="Xiao Long Bao 小笼包"
+    data-category="Xiao Long Bao"
+    data-outlets="jalan jem"
+    data-description="Traditional Chinese soup dumplings. Ask the restaurant about current filling and portion options.">
+
+    <div class="photo">
+     <img
+      src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80"
+      alt="Illustrative dumplings"
+      loading="lazy">
+    </div>
+
+    <div class="dish-body">
+     <span class="tag">Xiao Long Bao</span>
+     <h3>Xiao Long Bao</h3>
+     <span class="cn zh">小笼包</span>
+     <p>Delicate, comforting soup dumplings.</p>
+     <button class="details">Discover dish ↗</button>
+    </div>
+   </article>
+
+   <!-- DISH 3 -->
+
+   <article class="dish"
+    data-name="Pan-Fried Dumplings 锅贴"
+    data-category="Dumplings"
+    data-outlets="jalan boat jem"
+    data-description="Pan-fried dumplings with a crisp base. Check current fillings and branch availability.">
+
+    <div class="photo">
+     <img
+      src="https://images.unsplash.com/photo-1525755662778-989d0524087e?w=600&q=80"
+      alt="Illustrative Chinese food"
+      loading="lazy">
+    </div>
+
+    <div class="dish-body">
+     <span class="tag">Dumplings</span>
+     <h3>Pan-Fried Dumplings</h3>
+     <span class="cn zh">锅贴</span>
+     <p>Golden and crisp on the outside.</p>
+     <button class="details">Discover dish ↗</button>
+    </div>
+   </article>
+
+   <!-- DISH 4 -->
+
+   <article class="dish"
+    data-name="Scallion Pancakes 葱油饼"
+    data-category="Chinese Classics"
+    data-outlets="jalan boat"
+    data-description="Savoury scallion pancakes. Confirm the latest menu with the selected restaurant.">
+
+    <div class="photo">
+     <img
+      src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80"
+      alt="Illustrative plated food"
+      loading="lazy">
+    </div>
+
+    <div class="dish-body">
+     <span class="tag">Chinese Classics</span>
+     <h3>Scallion Pancakes</h3>
+     <span class="cn zh">葱油饼</span>
+     <p>A classic savoury favourite.</p>
+     <button class="details">Discover dish ↗</button>
+    </div>
+   </article>
+
+  </div>
+
+  <p id="empty-results" class="empty" hidden>
+   No matching dishes. Try another keyword, category or outlet.
+  </p>
+
+  <p class="note">
+   Illustrative imagery and selected menu items are a design preview.
+   Verify outlet availability, official dish names, prices and photography before launch.
+  </p>
+
+ </div>
+</section>
+
+<!-- THREE LOCATIONS -->
+
+<section class="locations" id="locations">
+ <div class="wrap">
+
+  <span class="eyebrow">05 / Come visit</span>
+  <h2>Three places.<br><em>One warm welcome.</em></h2>
+
+  <div class="location-grid">
+
+   <article class="location">
+    <img
+     src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=700&q=80"
+     alt="Illustrative restaurant interior, not the actual Jalan Besar outlet"
+     loading="lazy">
+
+    <div class="body">
+     <span class="eyebrow">Jalan Besar</span>
+     <h3>Hand In Hand<br>Beijing Restaurant</h3>
+
+     <p>141–143 Jalan Besar<br>Singapore 208859</p>
+     <p>Opening hours and reservations: confirm with outlet.</p>
+
+     <a target="_blank" rel="noopener noreferrer"
+      href="https://www.google.com/maps/search/?api=1&query=141-143+Jalan+Besar+Singapore+208859">
+      Get directions ↗
+     </a>
+    </div>
+   </article>
+
+   <article class="location">
+    <img
+     src="https://images.unsplash.com/photo-1555992336-03a23c7b20ee?w=700&q=80"
+     alt="Illustrative dining space, not the actual Boat Quay outlet"
+     loading="lazy">
+
+    <div class="body">
+     <span class="eyebrow">Boat Quay</span>
+     <h3>Hand In Hand<br>Shandong Restaurant</h3>
+
+     <p>69 Boat Quay<br>Singapore 049857</p>
+     <p>Opening hours and reservations: confirm with outlet.</p>
+
+     <a target="_blank" rel="noopener noreferrer"
+      href="https://www.google.com/maps/search/?api=1&query=69+Boat+Quay+Singapore+049857">
+      Get directions ↗
+     </a>
+     ·
+     <a target="_blank" rel="noopener noreferrer"
+      href="https://slssdcg.meuu.online/home">
+      Outlet menu ↗
+     </a>
+    </div>
+   </article>
+
+   <article class="location">
+    <img
+     src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=80"
+     alt="Illustrative restaurant dining room, not actual JEM outlet"
+     loading="lazy">
+
+    <div class="body">
+     <span class="eyebrow">JEM · Jurong East</span>
+     <h3>Hand In Hand<br>Peking Duck Restaurant</h3>
+
+     <p>
+      50 Jurong Gateway Road, #03-23<br>
+      JEM, Singapore 608549
+     </p>
+
+     <p>Opening hours and reservations: confirm with outlet.</p>
+
+     <a target="_blank" rel="noopener noreferrer"
+      href="https://www.google.com/maps/search/?api=1&query=JEM+50+Jurong+Gateway+Road+03-23">
+      Get directions ↗
+     </a>
+     ·
+     <a target="_blank" rel="noopener noreferrer"
+      href="https://jem.shopy.page/shop/hand-in-hand-peking-duck">
+      Outlet menu ↗
+     </a>
+    </div>
+   </article>
+
+  </div>
+ </div>
+</section>
+
+<!-- RETAIL PRODUCTS -->
+
+<section class="products wrap" id="products">
+
+ <div class="section-heading">
+  <div>
+   <span class="eyebrow">06 / Our products</span>
+   <h2>Bring Hand In Hand <em>home.</em></h2>
+  </div>
+
+  <p>
+   Explore potential frozen favourites and pantry staples.
+   Current product range, packaging and retail availability require confirmation.
+  </p>
+ </div>
+
+ <div class="product-grid">
+
+  <article class="product">
+   <div class="symbol">小笼包</div>
+   <h3>Frozen Xiao Long Bao</h3>
+   <p>Product availability to be confirmed.</p>
+   <a href="#contact" class="underlink">Enquire with us ↗</a>
+  </article>
+
+  <article class="product">
+   <div class="symbol">饺子</div>
+   <h3>Frozen Dumplings</h3>
+   <p>Flavours and pack sizes to be confirmed.</p>
+   <a href="#contact" class="underlink">Enquire with us ↗</a>
+  </article>
+
+  <article class="product">
+   <div class="symbol">麻辣</div>
+   <h3>Mala Hotpot Paste</h3>
+   <p>Retail availability to be confirmed.</p>
+   <a href="#contact" class="underlink">Enquire with us ↗</a>
+  </article>
+
+ </div>
+</section>
+
+<!-- CONTACT CTA -->
+
+<section class="closing" id="contact">
+ <span class="eyebrow" style="color:#f5d9ae">Gather around</span>
+ <h2>Good food tastes<br><em>better together.</em></h2>
+ <a href="#locations" class="button">FIND YOUR NEAREST OUTLET ↗</a>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+ <div class="wrap">
+  <div class="foot">
+
+   <div>
+    <strong class="zh" style="font-size:28px">手拉手</strong>
+    <p>HAND IN HAND FOOD · SINCE 2004</p>
+    <small>Traditional flavours, shared with heart.</small>
+   </div>
+
+   <div>
+    <strong>Explore</strong>
+    <p>
+     <a href="#story">Our story</a> ·
+     <a href="#menu">Menu</a> ·
+     <a href="#locations">Locations</a>
+    </p>
+   </div>
+
+   <div>
+    <strong>Stay in touch</strong>
+    <p>
+     <a href="https://www.instagram.com/handinhandfood/"
+      target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </p>
+   </div>
+
+  </div>
+
+  <div class="bottom">
+   © Hand In Hand Food · Website prototype ·
+   Not yet connected to official booking or ordering systems.
+  </div>
+ </div>
+</footer>
+
+<!-- DISH MODAL -->
+
+<dialog id="dish-dialog" aria-labelledby="modal-title">
+ <button type="button" class="close" id="modal-close"
+  aria-label="Close dish details">✕</button>
+
+ <img id="modal-image" alt="Illustrative dish photograph">
+
+ <div class="modal-content">
+  <span class="eyebrow" id="modal-category"></span>
+  <h2 id="modal-title"></h2>
+  <p id="modal-chinese" class="zh" style="color:var(--gold)"></p>
+  <p id="modal-description"></p>
+  <p id="modal-outlets" class="muted"></p>
+  <a href="#locations" class="button" id="modal-location">
+   VIEW OUTLETS ↗
+  </a>
+ </div>
+</dialog>
+
+<!-- MENU, SEARCH AND MODAL JAVASCRIPT -->
+
+<script>
+const navToggle = document.getElementById('nav-toggle');
+const mobileNav = document.getElementById('mobile-nav');
+
+navToggle.addEventListener('click', () => {
+ const open = mobileNav.classList.toggle('open');
+ navToggle.setAttribute('aria-expanded', String(open));
+});
+
+mobileNav.querySelectorAll('a').forEach(a => {
+ a.addEventListener('click', () => {
+  mobileNav.classList.remove('open');
+  navToggle.setAttribute('aria-expanded', 'false');
+ });
+});
+
+const categoryButtons = [...document.querySelectorAll('.filter')];
+const cards = [...document.querySelectorAll('.dish')];
+const search = document.getElementById('dish-search');
+const outlet = document.getElementById('outlet');
+
+let activeCategory = 'all';
+
+function filterMenu() {
+ let count = 0;
+ let keyword = search.value.trim().toLocaleLowerCase();
+
+ cards.forEach(card => {
+  const matchesCategory =
+   activeCategory === 'all' ||
+   card.dataset.category === activeCategory;
+
+  const matchesSearch =
+   (card.dataset.name + ' ' + card.dataset.description)
+    .toLocaleLowerCase().includes(keyword);
+
+  const matchesOutlet =
+   outlet.value === 'all' ||
+   card.dataset.outlets.split(' ').includes(outlet.value);
+
+  card.hidden = !(matchesCategory && matchesSearch && matchesOutlet);
+
+  if (!card.hidden) count++;
+ });
+
+ document.getElementById('empty-results').hidden = count > 0;
+}
+
+categoryButtons.forEach(b => {
+ b.addEventListener('click', () => {
+  activeCategory = b.dataset.category;
+
+  categoryButtons.forEach(x => {
+   x.setAttribute('aria-pressed', String(x === b));
+  });
+
+  filterMenu();
+ });
+});
+
+search.addEventListener('input', filterMenu);
+outlet.addEventListener('change', filterMenu);
+
+document.querySelectorAll('[data-set-category]').forEach(link => {
+ link.addEventListener('click', () => {
+  const b = categoryButtons.find(
+   x => x.dataset.category === link.dataset.setCategory
+  );
+  if (b) b.click();
+ });
+});
+
+// Dish details dialog
+
+const dialog = document.getElementById('dish-dialog');
+const modalClose = document.getElementById('modal-close');
+
+let lastFocus = null;
+
+const outletNames = {
+ jalan:'Jalan Besar',
+ boat:'Boat Quay',
+ jem:'JEM'
+};
+
+cards.forEach(card => {
+ card.querySelector('.details').addEventListener('click', () => {
+  lastFocus = document.activeElement;
+
+  document.getElementById('modal-image').src =
+   card.querySelector('img').src;
+
+  document.getElementById('modal-image').alt =
+   card.querySelector('img').alt;
+
+  document.getElementById('modal-title').textContent =
+   card.querySelector('h3').textContent;
+
+  document.getElementById('modal-chinese').textContent =
+   card.querySelector('.cn').textContent;
+
+  document.getElementById('modal-category').textContent =
+   card.dataset.category;
+
+  document.getElementById('modal-description').textContent =
+   card.dataset.description;
+
+  document.getElementById('modal-outlets').textContent =
+   'Listed outlet references: ' +
+   card.dataset.outlets.split(' ').map(x => outletNames[x]).join(', ') +
+   '. Please confirm current availability.';
+
+  dialog.showModal();
+  modalClose.focus();
+ });
+});
+
+function closeModal() {
+ dialog.close();
+ lastFocus?.focus();
+}
+
+modalClose.addEventListener('click', closeModal);
+
+dialog.addEventListener('click', e => {
+ if (e.target === dialog) closeModal();
+});
+
+dialog.addEventListener('close', () => lastFocus?.focus());
+
+document.getElementById('modal-location')
+ .addEventListener('click', closeModal);
+</script>
+
+<!-- THREE.JS INTERACTIVE BAMBOO STEAMER -->
+
+<script type="module">
+try {
+ const THREE = await import(
+  'https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js'
+ );
+
+ const canvas = document.getElementById('steamer-canvas');
+ const host = canvas.parentElement;
+
+ const renderer = new THREE.WebGLRenderer({
+  canvas,
+  alpha:true,
+  antialias:true
+ });
+
+ renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));
+
+ const scene = new THREE.Scene();
+
+ const camera = new THREE.PerspectiveCamera(35,1,.1,100);
+ camera.position.set(0,4.5,11);
+ camera.lookAt(0,.1,0);
+
+ scene.add(new THREE.HemisphereLight(0xffffff,0x67402e,2.8));
+
+ const key = new THREE.DirectionalLight(0xffe4bc,3.2);
+ key.position.set(-3,7,6);
+ scene.add(key);
+
+ const group = new THREE.Group();
+ scene.add(group);
+
+ const bamboo = new THREE.MeshStandardMaterial({
+  color:0xb78042,
+  roughness:.73
+ });
+
+ const rim = new THREE.MeshStandardMaterial({
+  color:0xd39a57,
+  roughness:.68
+ });
+
+ const dough = new THREE.MeshStandardMaterial({
+  color:0xffe5b8,
+  roughness:.8
+ });
+
+ function make(geometry,material,x,y,z) {
+  let mesh = new THREE.Mesh(geometry,material);
+  mesh.position.set(x,y,z);
+  group.add(mesh);
+  return mesh;
+ }
+
+ // Bamboo steamer base and rim
+
+ make(
+  new THREE.CylinderGeometry(3.1,3.05,1.12,64,1,true),
+  bamboo,0,-.75,0
+ );
+
+ make(
+  new THREE.CylinderGeometry(3,3,.15,64),
+  bamboo,0,-1.27,0
+ );
+
+ make(
+  new THREE.TorusGeometry(3.05,.16,12,90),
+  rim,0,-.18,0
+ ).rotation.x = Math.PI/2;
+
+ make(
+  new THREE.TorusGeometry(3.05,.11,12,90),
+  rim,0,-1.28,0
+ ).rotation.x = Math.PI/2;
+
+ for(let i=0;i<4;i++) {
+  make(
+   new THREE.TorusGeometry(3.06,.025,6,90),
+   rim,0,-.43-i*.2,0
+  ).rotation.x = Math.PI/2;
+ }
+
+ // Seven dumplings
+
+ const positions = [
+  [0,0],
+  [1.55,0],
+  [-1.55,0],
+  [.8,1.4],
+  [-.8,1.4],
+  [.8,-1.4],
+  [-.8,-1.4]
+ ];
+
+ for(const [x,z] of positions) {
+  const dumpling = new THREE.Group();
+  dumpling.position.set(x,-.12,z);
+  group.add(dumpling);
+
+  const body = new THREE.Mesh(
+   new THREE.SphereGeometry(.68,24,16),
+   dough
+  );
+
+  body.scale.set(1,.63,1);
+  dumpling.add(body);
+
+  const top = new THREE.Mesh(
+   new THREE.ConeGeometry(.22,.38,16),
+   dough
+  );
+
+  top.position.y = .48;
+  dumpling.add(top);
+
+  for(let i=0;i<13;i++) {
+   const angle = i/13*Math.PI*2;
+
+   const pleat = new THREE.Mesh(
+    new THREE.CylinderGeometry(.017,.035,.44,5),
+    dough
+   );
+
+   pleat.position.set(
+    Math.cos(angle)*.32,
+    .28,
+    Math.sin(angle)*.32
+   );
+
+   pleat.rotation.z = Math.sin(angle)*.48;
+   pleat.rotation.x = Math.cos(angle)*.48;
+
+   dumpling.add(pleat);
+  }
+ }
+
+ function resize() {
+  let w = host.clientWidth;
+  let h = host.clientHeight;
+
+  renderer.setSize(w,h,false);
+  camera.aspect = w/h;
+  camera.updateProjectionMatrix();
+ }
+
+ window.addEventListener('resize',resize);
+ resize();
+
+ document.getElementById('steamer-fallback').hidden = true;
+
+ let dragging = false;
+ let previousX = 0;
+ let rot = -.22;
+
+ const reduced =
+  matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+ canvas.addEventListener('pointerdown',e => {
+  dragging = true;
+  previousX = e.clientX;
+  canvas.setPointerCapture(e.pointerId);
+ });
+
+ canvas.addEventListener('pointermove',e => {
+  if(dragging) {
+   rot += (e.clientX-previousX)*.007;
+   previousX = e.clientX;
+  }
+ });
+
+ canvas.addEventListener('pointerup',() => dragging=false);
+ canvas.addEventListener('pointercancel',() => dragging=false);
+
+ let frame = 0;
+
+ function animate() {
+  frame = requestAnimationFrame(animate);
+
+  if(!dragging && !reduced) rot += .0015;
+
+  group.rotation.y = rot;
+  renderer.render(scene,camera);
+ }
+
+ animate();
+
+ document.addEventListener('visibilitychange',() => {
+  if(document.hidden) cancelAnimationFrame(frame);
+  else animate();
+ });
+
+} catch(e) {
+ console.info('3D unavailable: static hero fallback shown.',e);
+}
+</script>
+
+</body>
+</html>
+
